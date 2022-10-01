@@ -1,0 +1,79 @@
+@import './variables.css';
+
+.body {
+    background-image: url('../assets/bg-main-mobile.png');
+    background-position: -85%;
+    background-repeat: none;
+}
+.header {
+
+}
+.header__logo {
+    width: 120px;
+}
+.header__title {
+    font-size: 58px;
+    font-weight: bold;
+}
+.header__paragraph {
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+
+.main {
+    background-image: url('../assets/bg-pattern-2.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-color: var(--black);
+    border-radius: 2rem;
+}
+.main__image {
+    width: 60%;
+}
+.main__section {
+    border-radius: 1rem;
+}
+.main__section--orange {
+    background-color: var(--orange);
+    padding: 2rem;
+}
+.main__article {
+    color: var(--white);
+}
+
+.main__title {
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.main__paragraph {
+    line-height: 1.8rem;
+}
+.main--smaller {
+    font-size: 18px;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+.main__btn {
+    padding: 1.8rem 0;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--white);
+    border: none;
+}
+.main__btn.blue {
+    background-color: var(--black);
+}
+.main__btn--dark-text {
+    color: var(--black);
+}
+.main__btn--hover-blue:hover {
+    background-color: var(--light-blue);
+}
+.main__btn--hover-orange:hover {
+    background-color: var(--lighter-orange)
+}
